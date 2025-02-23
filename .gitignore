@@ -1,0 +1,56 @@
+# 🔹 Archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.cache
+*.pdb
+*.aps
+*.ncb
+*.obj
+*.log
+*.ilk
+*.tlog
+*.idb
+*.sdf
+*.opensdf
+*.VC.db
+
+# 🔹 Archivos de compilación
+bin/
+obj/
+Debug/
+Release/
+*.dll
+*.exe
+
+# 🔹 Configuración de usuario
+*.config
+*.settings
+*.resx
+
+# 🔹 Archivos de paquetes NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# 🔹 SQL Server archivos de bases de datos locales
+*.mdf
+*.ldf
+*.bak
+
+# 🔹 Configuraciones sensibles (API Keys, conexión a BD, etc.)
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# 🔹 Archivos generados automáticamente
+Generated/
+Generated_Code/
+
+# 🔹 Dependencias de Node.js (si usas algo con npm)
+node_modules/
+
+# 🔹 Ignorar archivos de Postman
+postman/
+*.postman_collection.json
